@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6296282249900340249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6296282249900340244}
+  - component: {fileID: 6296282249900340247}
+  - component: {fileID: 6296282249900340246}
+  - component: {fileID: 6296282249900340245}
+  m_Layer: 0
+  m_Name: SceneContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6296282249900340244
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296282249900340249}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6296282249900340247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296282249900340249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89715ad69b973a14899afa2c6730b30b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scriptableObjectInstallers: []
+  _monoInstallers:
+  - {fileID: 6296282249900340246}
+  - {fileID: 6296282249900340245}
+  _installerPrefabs: []
+  _autoRun: 1
+  OnPreInstall:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPostInstall:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPreResolve:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPostResolve:
+    m_PersistentCalls:
+      m_Calls: []
+  _parentNewObjectsUnderSceneContext: 0
+  _contractNames: []
+  _parentContractNames: []
+--- !u!114 &6296282249900340246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296282249900340249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f26773ee471ff9c468809e853d00637e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _viewInformation: {fileID: 0}
+  _settingsShopManager:
+    StartSlot: {fileID: 0}
+    DefaultModelType: 1
+    Price:
+      ResourceType: 0
+      Amount: 50
+    BuyButton: {fileID: 0}
+    PointBuyBall: {fileID: 0}
+  _settingsMergeObjectProvider:
+    MergeObjects:
+    - {fileID: -1324082286915431200, guid: a25734f6c60635c479e9ec68e5577962, type: 3}
+    - {fileID: -1324082286915431200, guid: 2af46dfe46ba69c448d08f12d077c5c8, type: 3}
+    - {fileID: 100492370880774056, guid: aa5b4159a92b20647bbc63b92cc38376, type: 3}
+    - {fileID: -1324082286915431200, guid: 73169e7f3333c5d43abfa335946aae89, type: 3}
+    - {fileID: -453215223390981005, guid: d6a305561f755004da787d3a5f676645, type: 3}
+    - {fileID: -1324082286915431200, guid: 4b63ba0932e218c469654f2e472bb28a, type: 3}
+    - {fileID: -1324082286915431200, guid: ff3d616c45c69b044815b3d2350bfa0c, type: 3}
+    - {fileID: -1324082286915431200, guid: bf11a661fea5a47499f23e895f9e4479, type: 3}
+    - {fileID: -1324082286915431200, guid: a378afeb1477d3245af51baf6a26425a, type: 3}
+    - {fileID: 8337637766210019110, guid: 2eb8603ea4ddd0a41a1766d950dc055f, type: 3}
+    - {fileID: -1324082286915431200, guid: 142071b9247d3074981116076d7d883e, type: 3}
+    - {fileID: -1324082286915431200, guid: 0b68e71818f7fd84f862fd22c9754a6f, type: 3}
+    - {fileID: -1324082286915431200, guid: 2d2b1515c11b4214095678ae9729a13d, type: 3}
+    - {fileID: 2499472124683903216, guid: 705b3d7558fc2424598ecffde4a7ad8a, type: 3}
+    - {fileID: -8628324641671753192, guid: 89f4bc7a26019844e8737b0ff1663bef, type: 3}
+    - {fileID: 3203310069644892911, guid: 1ffb0189273a4c440a5d15bed66e4285, type: 3}
+    - {fileID: -7195413830081287510, guid: 1ed5bfecc97cb1d4b978ef5f84d00c98, type: 3}
+    - {fileID: 184186294101840144, guid: 4b8891ba268e1bb409aae34a0d366b9e, type: 3}
+    - {fileID: 6165504375919591880, guid: 3a352c6e67dd22e419a4117e29fc4ae0, type: 3}
+    - {fileID: 7975321649063388902, guid: 801feb9923e816b4bad53cb3cb80782d, type: 3}
+    - {fileID: 5974125786666762375, guid: 87f3f395c75bdbf418d2434b1a98aea2, type: 3}
+    - {fileID: 2844511754854274988, guid: 2da03535859f9794283c05bd29a1745a, type: 3}
+    - {fileID: 3240256368195452840, guid: a38e4eaabc4b69748bb7ee18f6593e2a, type: 3}
+    - {fileID: 84920578321231893, guid: d8ce5ca14b600854aa2c77355d51c68d, type: 3}
+    - {fileID: 8043813684309396629, guid: 599c4219a53f28e47b7b2ffc20f3ab59, type: 3}
+  _settingsSlotManager:
+    DefaultSlot:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    _dopSlotsSettingses:
+    - ModelTypeByUnlockSlots: 11
+      ScaleGrid: {x: 1, y: 1, z: 1}
+      DopSlot:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      IsActivate: 0
+    - ModelTypeByUnlockSlots: 16
+      ScaleGrid: {x: 0.875, y: 0.875, z: 0.875}
+      DopSlot:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      IsActivate: 0
+    - ModelTypeByUnlockSlots: 21
+      ScaleGrid: {x: 0.80437505, y: 0.740625, z: 0.75}
+      DopSlot:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      IsActivate: 0
+    _container: {fileID: 0}
+  _settingsShopUpgrader:
+    TextPrice: {fileID: 0}
+    TextCountUpgrade: {fileID: 0}
+    TextLevel: {fileID: 0}
+    FillImage: {fileID: 0}
+    UpgradeSettingses:
+    - CountUpgrade: 55
+      Price:
+        ResourceType: 0
+        Amount: 100
+      ModelType: 1
+      CurrentCount: 0
+    - CountUpgrade: 100
+      Price:
+        ResourceType: 0
+        Amount: 150
+      ModelType: 2
+      CurrentCount: 0
+    - CountUpgrade: 170
+      Price:
+        ResourceType: 0
+        Amount: 180
+      ModelType: 3
+      CurrentCount: 0
+    - CountUpgrade: 270
+      Price:
+        ResourceType: 0
+        Amount: 210
+      ModelType: 4
+      CurrentCount: 0
+    - CountUpgrade: 400
+      Price:
+        ResourceType: 0
+        Amount: 240
+      ModelType: 5
+      CurrentCount: 0
+    - CountUpgrade: 600
+      Price:
+        ResourceType: 0
+        Amount: 270
+      ModelType: 6
+      CurrentCount: 0
+  _settingsGiftManager:
+    Prefab: {fileID: 6830039717860450458, guid: 8282d7b5a95bf4a4f838ea6b284cf8d8, type: 3}
+    StartCreateGift: 7
+--- !u!114 &6296282249900340245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6296282249900340249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 704e758cf4fd42f2afe2dffa0458bbe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _joystick: {fileID: 0}
+  _balloonSpawnerSettings:
+    Balloons:
+    - {fileID: 916070767533684304, guid: cd65773db2a53c448904eee12158fdc3, type: 3}
+    - {fileID: 536543184308017507, guid: 26e462bc2b9727c448f4559476ea56eb, type: 3}
+    - {fileID: 2438073717456565616, guid: 210ceb3f3d92c274289c755f8f94b579, type: 3}
+    - {fileID: 2206082272205543007, guid: f6a6e20337dc85144ab8b625e9682d35, type: 3}
+    - {fileID: 916070767533684304, guid: 3b8c4319404cfea4abb6e905b1289946, type: 3}
+    - {fileID: 7161049712782086714, guid: 336eeaa134fa66f44b26fc59d52e4709, type: 3}
+    - {fileID: 6402230385314626449, guid: 4188d48d8de304d4b9145958e5e4a3ce, type: 3}
+    - {fileID: 1695925086885272546, guid: f656c5eef25184e47b0a45cf74625186, type: 3}
+    - {fileID: 2607458684499086547, guid: 0c3868a0683a9fb468092b58afc0c020, type: 3}
+    - {fileID: 916070767533684304, guid: 1ed26e5d4710b974cbc09449f0b45d4b, type: 3}
+    - {fileID: 9159528804265759259, guid: 5c4d5326bbe32d442aca8bdf38c33186, type: 3}
+    - {fileID: 4338873883507450837, guid: e0ff65df6b4ff0645bbbd73f8ef27e83, type: 3}
+    - {fileID: 6248415947945049591, guid: 71f3fbd11777298448605b2101f553d6, type: 3}
+    - {fileID: 916070767533684304, guid: 1aa884c56e2dda44aa24016af980c8fa, type: 3}
+    - {fileID: 916070767533684304, guid: 941153d2187afc942ba65842083b294d, type: 3}
+    - {fileID: 8434651392562932503, guid: 79c39a6937ef7bd419d077d0c0eebc90, type: 3}
+    - {fileID: 916070767533684304, guid: a37801e06d769d54ca0297ec48345e29, type: 3}
+    - {fileID: 3186609249493383068, guid: db3d62db092a0354e9fc90a9794ea17b, type: 3}
+    - {fileID: 6493191566665633686, guid: 91dbffa72b8ec9e4d8f97bffb6ca8353, type: 3}
+    - {fileID: 5782782598679792536, guid: b17767009d9266947b5e09c051937ff1, type: 3}
+    - {fileID: 385151066796062974, guid: 36ea50c227a8acc4bb985d600eeb3605, type: 3}
+    - {fileID: 8595243492265659553, guid: 716e72b9b2d4b7e40a3e6e263af78648, type: 3}
+    - {fileID: 2420724008207684842, guid: f65910f1876519d4184001ecd5173627, type: 3}
+    - {fileID: 4789828164637437319, guid: 3e3383085391e0f4db5b7f085fe600d8, type: 3}
+    - {fileID: 2216572885845860415, guid: bf36936b1edf48f41bfe4eef72defb99, type: 3}
+  "_reward\u0421alculatorSettings":
+    DividerSettingses:
+    - Divider: 2.85
+      ModelType: 1
